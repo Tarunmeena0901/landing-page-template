@@ -69,7 +69,7 @@ export function Heading({ onAnimationComplete }: {
             </div>
             <GradientContainer hieght={7} width={70} rounded={"full"} marginTop={5} animationComplete={buttonAnimationComplete}>
             <motion.div 
-            className="w-[70vh] h-[7vh] bg-white rounded-full flex justify-center items-center bg-neutral-900"
+            className="w-[70vh] h-[7vh] bg-neutral-900 rounded-full flex justify-center items-center bg-neutral-900"
             onAnimationComplete={handleAnimationComplete}
             initial={{
                 scale: 1.3,
