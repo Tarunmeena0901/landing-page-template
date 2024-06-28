@@ -2,7 +2,7 @@
 
 import { easeIn, motion } from "framer-motion"
 
-const SideBarImageArray = ["./sidebar/sidebar1.jpg", "./sidebar/sidebar2.jpg", "./sidebar/sidebar3.jpg", "./sidebar/sidebar4.jpg"]
+const SideBarImageArray = ["./sideBar/sidebar1.jpg", "./sidebar/sideBar2.jpg", "./sidebar/sideBar3.jpg", "./sidebar/sideBar4.jpg"]
 
 export function SideBar ({headingAnimationComplete} : {
     headingAnimationComplete : boolean

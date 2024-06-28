@@ -18,9 +18,9 @@ export function NavBar() {
                     10$LandingPage
                 </div>
                 <Tabs setPosition={setPostion}>Products</Tabs>
-                <Tabs setPosition={setPostion}>Pricing</Tabs>
                 <Tabs setPosition={setPostion}>Company</Tabs>
                 <Tabs setPosition={setPostion}>Blogs</Tabs>
+                <Tabs setPosition={setPostion}>Pricing</Tabs>
                 <button className="mx-2 text-sm bg-slate-900 rounded-lg h-[4vh] w-[10vh] flex justify-center items-center">Login</button>
                 <button className="mx-2 text-sm bg-white text-black rounded-lg h-[4vh] w-[10vh] flex justify-center items-center">SignUp</button>
                 <Cursor position={position}/>   
