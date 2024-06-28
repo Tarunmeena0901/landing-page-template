@@ -13,7 +13,7 @@ const ImageArray = [
             {ImageArray.map((link, key) => (
               <motion.img
                 initial={{
-                  scale: 1.1,
+                  scale: 1.3,
                   opacity: 0,
                   filter: "blur(10px)"
                 }}
@@ -23,7 +23,7 @@ const ImageArray = [
                   filter: "blur(0px)",
                 } : {}}
                 transition={{
-                  delay: 0.15 * key,
+                  delay: 0.35 * key,
                   duration: 0.9,
                   ease: easeIn
                 }}

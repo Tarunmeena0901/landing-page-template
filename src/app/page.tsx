@@ -1,4 +1,4 @@
-import { NavBar } from "./components/navBar"
+import { NavBar } from "./components/ui/navBar"
 import { HeroSection } from "./components/sections/heroSection";
 
 export default function Home() {

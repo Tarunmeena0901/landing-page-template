@@ -3,11 +3,12 @@
 import { animate, useMotionTemplate, useMotionValue, motion } from "framer-motion";
 import { ReactNode, useEffect } from "react";
 
-export const GradientContainer = ({ children, hieght, width, rounded, animationComplete }: {
+export const GradientContainer = ({ children, hieght, width, rounded, marginTop, animationComplete }: {
     children: any,
     hieght: number,
     width: number,
     rounded: any,
+    marginTop?: number,
     animationComplete?: boolean,
 }) => {
     const COLORS = ["#13FFAA", "#1E67C7", "#CE84CF", "#DD335C"];
@@ -28,7 +29,7 @@ export const GradientContainer = ({ children, hieght, width, rounded, animationC
             style={ animationComplete ? {
                 boxShadow
             } : {}}
-            className={`h-[${hieght}vh] w-[${width}vh] rounded-${rounded} `}
+            className={`h-[${hieght}vh] w-[${width}vh] rounded-${rounded} mt-${marginTop} `}
         >
             {children}
         </motion.div>

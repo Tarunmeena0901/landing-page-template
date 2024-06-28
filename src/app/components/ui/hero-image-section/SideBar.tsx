@@ -9,13 +9,13 @@ export function SideBar ({headingAnimationComplete} : {
 }) {
     
     return (
-        <div className="grid grid-rows-auto overflow-hidden h-full">
+        <div className="grid grid-rows-auto overflow-hidden h-full border-2 border-neutral-800 rounded">
         {SideBarImageArray.map((link, key) => {
           return (
-            <motion.div className="w-full h-full overflow-hidden">
+            <motion.div key={key} className="w-full h-full overflow-hidden">
               <motion.img
                 initial={{
-                  scale: 1.1,
+                  scale: 1.3,
                   opacity: 0,
                   filter: "blur(10px)"
                 }}

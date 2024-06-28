@@ -21,8 +21,8 @@ export function HeroSection() {
           <Heading onAnimationComplete={handleHeadingAnimationComplete} />
         </div>
       </div>
-      <div className="z-0 relative grid grid-cols-3 items-stretch border-2 border-neutral-900 h-[70vh] w-full rounded-lg overflow-hidden">
-        <div className="z-10 absolute h-full w-full bg-gradient-to-r from-transparent to-black to-99% "></div>
+      <div className="z-0 relative grid grid-cols-3 items-stretch border-y-2 border-neutral-900 h-[70vh] w-full rounded-lg overflow-hidden">
+        <div className="z-10 absolute h-full w-full bg-gradient-to-r from-transparent to-black/80 to-99% "></div>
         <SideBar headingAnimationComplete={headingAnimationComplete}/>
         <ImageSection headingAnimationComplete={headingAnimationComplete}/>
       </div>
