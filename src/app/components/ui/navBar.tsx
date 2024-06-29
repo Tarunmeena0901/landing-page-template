@@ -11,7 +11,7 @@ export function NavBar() {
     })
 
     return (
-        <div className=" absolute sticky top-5 h-[4vh] flex items-center justify-center bg-transparent w-full">
+        <div className="z-20 absolute sticky top-5 h-[4vh] flex items-center justify-center bg-transparent w-full">
             <div className="relative text-white cursor-pointer flex justify-center items-center rounded-lg w-[110vh] h-[6vh] backdrop-blur bg-neutral-900/30 border-2 border-neutral-800 ">
                 <div className="mx-4 text-sm gap-1 rounded flex justify-center items-center"> 
                     <img src="./logo3.svg"></img>
@@ -31,7 +31,6 @@ export function NavBar() {
 
 const Tabs = ({ children , setPosition }: { children: ReactNode, setPosition: any }) => {
     const ref = useRef<any>(null);
-    console.log(ref.current?.offsetLeft);
     return (
             <li
             ref={ref}
@@ -50,7 +49,7 @@ const Tabs = ({ children , setPosition }: { children: ReactNode, setPosition: an
                     width,
                 })
             }}
-            className="z-10 cursor-pointer block px-3 py-1 md:px-5 mx-3 rounded text-sm  mix-blend-difference"
+            className=" cursor-pointer z-10 block px-3 py-1 md:px-5 mx-3 rounded text-sm  mix-blend-difference"
             >
                 {children}
             </li>
