@@ -4,14 +4,6 @@ import { useRef } from "react"
 
 export function ClientSection() {
     const ref = useRef(null);
-    // const {scrollYProgress} = useScroll({
-    //     target: ref,
-    //     offset: ['start start','end end']
-    // })
-
-    // const lightRevealProgress = useTransform(scrollYProgress, [0,100], ['0%','100%']);
-    // const background = useMotionTemplate`linear-gradient(to right, black ${40 - lightRevealProgress}%, transparent 50%, black 60%)`
-
     const isInView = useInView(ref, { amount: 0.5, once: true })
 
     return (
@@ -39,24 +31,24 @@ export function ClientSection() {
                     <span className="text-xl text-neutral-400 text-center">Perfect solution for fast pace development environment</span>
                 </div>
                 <div className="h-3/4 w-full grid grid-cols-3 grid-rows-2 place-content-center text-xl fonte-semibold">
-                    <div className="flex justify-center items-center ">
+                    <span className="flex justify-center items-center ">
                         Google
-                    </div>
-                    <div className="flex justify-center items-center ">
+                    </span>
+                    <span className="flex justify-center items-center ">
                         Meta
-                    </div>
-                    <div className="flex justify-center items-center ">
+                    </span>
+                    <span className="flex justify-center items-center ">
                         Netflix
-                    </div>
-                    <div className="flex justify-center items-center ">
+                    </span>
+                    <span className="flex justify-center items-center ">
                         Linear
-                    </div>
-                    <div className="flex justify-center items-center ">
+                    </span>
+                    <span className="flex justify-center items-center ">
                         Cal.com
-                    </div>
-                    <div className="flex justify-center items-center ">
+                    </span>
+                    <span className="flex justify-center items-center ">
                         SlidesAi
-                    </div>
+                    </span>
                 </div>
             </motion.div>
         </section>
