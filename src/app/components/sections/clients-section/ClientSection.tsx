@@ -1,6 +1,7 @@
 "use client"
 import { motion, useInView, useMotionTemplate, useScroll, useTransform } from "framer-motion"
 import { useRef } from "react"
+import { ClientDisplay } from "./ClientsDisplay";
 
 export function ClientSection() {
     const ref = useRef(null);
@@ -26,30 +27,11 @@ export function ClientSection() {
                 }}
                 className="h-full flex flex-col items-center gap-5"
             >
-                <div className="h-1/4 flex flex-col justify-center">
+                <div className="h-1/4 flex flex-col justify-center items-center mt-5">
                     <span className="text-4xl text-center font-semibold">Trusted by enterprises all over the world</span>
                     <span className="text-xl text-neutral-400 text-center">Perfect solution for fast pace development environment</span>
                 </div>
-                <div className="h-3/4 w-full grid grid-cols-3 grid-rows-2 place-content-center text-xl fonte-semibold">
-                    <span className="flex justify-center items-center ">
-                        Google
-                    </span>
-                    <span className="flex justify-center items-center ">
-                        Meta
-                    </span>
-                    <span className="flex justify-center items-center ">
-                        Netflix
-                    </span>
-                    <span className="flex justify-center items-center ">
-                        Linear
-                    </span>
-                    <span className="flex justify-center items-center ">
-                        Cal.com
-                    </span>
-                    <span className="flex justify-center items-center ">
-                        SlidesAi
-                    </span>
-                </div>
+                <ClientDisplay/>
             </motion.div>
         </section>
     )

@@ -1,8 +1,10 @@
 import { NavBar } from "./components/ui/navBar"
 import { HeroSection } from "./components/sections/heroSection";
-import { ClientSection } from "./components/sections/ClientSection";
+import { ClientSection } from "./components/sections/clients-section/ClientSection";
+
 
 export default function Home() {
+ 
   return (
     <div className="relative bg-black min-w-screen min-h-screen">
       <NavBar />
