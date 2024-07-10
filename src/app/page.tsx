@@ -1,6 +1,7 @@
 import { NavBar } from "./components/ui/navBar"
 import { HeroSection } from "./components/sections/heroSection";
 import { ClientSection } from "./components/sections/clients-section/ClientSection";
+import { ProductInfo } from "./components/sections/product-info-section/ProductSection";
 
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <div className=" my-auto grid grid-cols-1 place-content-center text-white px-[20vh]">
         <HeroSection/>
         <ClientSection/>
+        <ProductInfo/>
       </div>
     </div>
   );
