@@ -11,12 +11,7 @@ export function ClientSection() {
         <section
             ref={ref}
             className="relative bg-neutral-900 h-screen py-[5vh]"
-        >   <div
-            style={{
-                background: 'linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 15%, rgba(0,0,0,0) 25%,rgba(0,0,0,0) 35%, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 45%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 55%,rgba(0,0,0,0) 60%,rgba(0,0,0,0) 65%, rgba(0,0,0,0) 75%,rgba(0,0,0,0) 85%, rgba(0,0,0,1) 100%) no-repeat'
-            }}
-            className="absolute inset-0 z-0">
-            </div>
+        >
             <motion.div
                 animate={{
                     background: isInView ? 'linear-gradient(90deg, rgba(0,0,0,1) 5%, rgba(0,0,0,0) 50%, rgba(0,0,0,1) 95%) no-repeat' :

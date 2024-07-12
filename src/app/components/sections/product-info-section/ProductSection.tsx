@@ -14,7 +14,7 @@ export function ProductInfo() {
                 <div className="w-full  h-full flex justify-center gap-4 p-5">
                     <Card imgAdd="./Info/demo_graph.png">
                         <p className="z-10 text-base font-medium py-2 text-neutral-200">
-                            Increase your revenue by 30%, in very short period of time <FaArrowUpRightDots className="inline ml-2" />
+                            Increase your revenue by 10%, in very short period of time <FaArrowUpRightDots className="inline ml-2" />
                         </p>
                     </Card>
                     <Card imgAdd="./Info/community.svg">
@@ -24,7 +24,7 @@ export function ProductInfo() {
                     </Card>
                     <Card imgAdd="./Info/demo_graph2.png">
                         <p className="z-10 w-full text-base font-medium py-2 text-neutral-200">
-                            Ship 50% faster with these SEO friendly landing pages<MovingBoat />
+                            Ship 30% faster with these SEO friendly landing pages<MovingBoat />
                         </p>
                     </Card>
                 </div>
