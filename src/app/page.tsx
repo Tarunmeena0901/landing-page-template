@@ -2,6 +2,7 @@ import { NavBar } from "./components/ui/navBar"
 import { HeroSection } from "./components/sections/heroSection";
 import { ClientSection } from "./components/sections/clients-section/ClientSection";
 import { ProductInfo } from "./components/sections/product-info-section/ProductSection";
+import { Footer } from "./components/Footer";
 
 
 export default function Home() {
@@ -13,6 +14,9 @@ export default function Home() {
         <HeroSection/>
         <ClientSection/>
         <ProductInfo/>
+      </div>
+      <div className="my-auto grid py-[8vh] px-[30vh] bg-neutral-900">
+        <Footer/>
       </div>
     </div>
   );

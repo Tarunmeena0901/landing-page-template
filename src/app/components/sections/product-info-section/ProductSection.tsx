@@ -9,7 +9,7 @@ import { MovingBoat } from "../../ui/Effects/MovingBoat"
 export function ProductInfo() {
 
     return (
-        <section className="relative bg-black h-[200vh] ">
+        <section className="relative bg-black h-[170vh] ">
             <SubSection>
                 <div className="w-full  h-full flex justify-center gap-4 p-5">
                     <Card imgAdd="./Info/demo_graph.png">
@@ -24,7 +24,7 @@ export function ProductInfo() {
                     </Card>
                     <Card imgAdd="./Info/demo_graph2.png">
                         <p className="z-10 w-full text-base font-medium py-2 text-neutral-200">
-                            Ship 50% faster with these SEO friendly landing page<MovingBoat />
+                            Ship 50% faster with these SEO friendly landing pages<MovingBoat />
                         </p>
                     </Card>
                 </div>
