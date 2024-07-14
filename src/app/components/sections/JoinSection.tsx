@@ -8,7 +8,7 @@ export function JoinSection() {
                     backgroundImage: 'radial-gradient(circle,#262626, #0A0A0A)',
                 }}
                 className="py-4 px-3 sm:py-8 sm:px-6 w-full h-1/2 sm:w-3/4 flex justify-around border-[1px] border-dashed border-neutral-700 rounded-lg">
-                <div className="w-3/5 flex flex-col justify-center sm:justify-normal">
+                <div className="w-3/5 flex flex-col justify-center items-centersm:justify-normal">
                     <span className="text-3xl sm:text-5xl font-bold text-white ">
                         Join now.
                     </span>
