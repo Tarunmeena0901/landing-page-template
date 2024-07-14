@@ -55,7 +55,7 @@ export function ProductInfo() {
                             </div>
                         </div>
                     </div>
-                    <div className="z-10 sm:z-0 col-span-3 flex justify-center p-1 sm:p-5">
+                    <div className="z-10 sm:-z-10 col-span-3 flex justify-center p-1 sm:p-5">
                         <img
                             className="w-full h-full object-cover border-2 border-dashed border-neutral-800  rounded-lg "
                             src="./Info/demo_image.png">
