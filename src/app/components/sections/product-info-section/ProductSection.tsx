@@ -11,7 +11,7 @@ export function ProductInfo() {
     return (
         <section className="relative bg-black h-[170vh] ">
             <SubSection>
-                <div className="w-full h-full flex sm:justify-center gap-4 p-5 overflow-x-auto">
+                <div className="w-full h-full flex sm:justify-center gap-4 p-5 hide-scrollbar overflow-x-auto">
                     <Card imgAdd="./Info/demo_graph.png">
                         <p className="z-10 text-base font-medium py-2 text-neutral-200">
                             Increase your revenue by 10%, in very short period of time <FaArrowUpRightDots className="inline ml-2" />

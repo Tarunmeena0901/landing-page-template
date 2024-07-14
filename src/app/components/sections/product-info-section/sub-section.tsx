@@ -7,7 +7,7 @@ export function SubSection({children}: {
     const ref = useRef(null);
     return <div
         ref={ref}
-        className="relative z-0 h-[80vh] w-full bg-neutral-900 ">
+        className="relative z-0 h-[60vh] sm:h-[80vh] w-full bg-neutral-900 ">
         <LampRevealEffect objRef={ref} />
         <div className=" h-full w-full flex justify-center py-5 items-center">
             {children}
