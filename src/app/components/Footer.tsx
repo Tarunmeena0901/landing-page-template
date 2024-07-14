@@ -3,10 +3,11 @@ import {  FaSlack, FaXTwitter } from "react-icons/fa6";
 
 export function Footer() {
     return (
-        <div className="h-[40vh] grid grid-cols-6  gap-4 text-white">
-            <div className="col-span-2 flex flex-col justify-between h-full" >
-                <div className="flex gap-2">
-                    <img src="./logo3.svg" /> <span className="text-neutral-500 font-semibold">10$LandingPage</span>
+        <div className="sm:h-[40vh] w-full grid grid-cols-1 sm:grid-cols-6  gap-4 text-white ">
+            <div className="col-span-2 flex sm:flex-col justify-between h-full" >
+                <div className="flex gap-2 items-center">
+                    <img src="./logo3.svg" className="h-4 w-4" />
+                     <span className="text-neutral-500 font-semibold">10$LandingPage</span>
                 </div>
                 <div className="flex gap-5 mb-2 text-neutral-500">
                     <a href=""><FaXTwitter/></a>

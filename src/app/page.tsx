@@ -11,13 +11,13 @@ export default function Home() {
   return (
     <div className="relative bg-black min-w-screen min-h-screen">
       <NavBar />
-      <div className=" my-auto grid grid-cols-1 place-content-center text-white px-[20vh]">
+      <div className=" my-auto grid grid-cols-1 place-content-center text-white sm:px-[20vh] px-[5vh]">
         <HeroSection/>
         <ClientSection/>
         <ProductInfo/>
         <JoinSection/>
       </div>
-      <div className="my-auto grid py-[8vh] px-[30vh] bg-neutral-900">
+      <div className="my-auto grid py-[8vh] px-[5vh] sm:px-[30vh] bg-neutral-900">
         <Footer/>
       </div>
     </div>

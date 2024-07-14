@@ -12,15 +12,17 @@ export function NavBar() {
 
     return (
         <div className="z-20 absolute sticky top-5 h-[4vh] flex items-center justify-center bg-transparent w-full">
-            <div className="relative text-white cursor-pointer flex justify-center items-center rounded-lg w-[110vh] h-[6vh] backdrop-blur bg-neutral-900/30 border-2 border-neutral-800 ">
+            <div className="relative text-white cursor-pointer flex justify-center items-center rounded-lg w-[65vh] sm:w-[110vh] h-[6vh] backdrop-blur bg-neutral-900/30 border-2 border-neutral-800 ">
                 <div className="mx-4 text-sm gap-1 rounded flex justify-center items-center"> 
                     <img src="./logo3.svg"></img>
                     10$LandingPage
                 </div>
+                <div className="sm:flex justify-center items-center hidden">
                 <Tabs setPosition={setPostion}>Products</Tabs>
                 <Tabs setPosition={setPostion}>Company</Tabs>
                 <Tabs setPosition={setPostion}>Blogs</Tabs>
                 <Tabs setPosition={setPostion}>Pricing</Tabs>
+                </div>
                 <button className="mx-2 text-sm bg-slate-900 rounded-lg h-[4vh] w-[10vh] flex justify-center items-center">Login</button>
                 <button className="mx-2 text-sm bg-white text-black rounded-lg h-[4vh] w-[10vh] flex justify-center items-center">SignUp</button>
                 <Cursor position={position}/>   

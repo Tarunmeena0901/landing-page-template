@@ -10,7 +10,7 @@ export function ClientSection() {
     return (
         <section
             ref={ref}
-            className="relative bg-neutral-900 h-screen py-[5vh]"
+            className="relative bg-neutral-900 h-[75vh] sm:h-screen py-[5vh]"
         >
             <motion.div
                 animate={{
@@ -29,8 +29,8 @@ export function ClientSection() {
                 className="h-full flex flex-col items-center gap-5"
             >
                 <div className="h-1/4 flex flex-col justify-center items-center mt-5">
-                    <span className="text-4xl text-center font-semibold">Trusted by enterprises all over the world</span>
-                    <span className="text-xl text-neutral-400 text-center">Perfect solution for fast pace development environment</span>
+                    <span className="text-2xl sm:text-4xl text-center font-semibold">Trusted by enterprises all over the world</span>
+                    <span className="text-base sm:text-xl text-neutral-400 text-center">Perfect solution for fast pace development environment</span>
                 </div>
                 <ClientDisplay />
             </motion.div>
