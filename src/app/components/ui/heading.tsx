@@ -17,7 +17,7 @@ export function Heading({ onAnimationComplete }: {
     };
 
     return (
-        <div className="flex flex-col gap-8 mt-[10vh]">
+        <div className="flex flex-col gap-8 mt-[5vh] sm:mt-[10vh]">
             <div className="text-3xl text-center sm:text-start sm:text-5xl font-semibold ">
                 <RevealEffect duration={0.5} delay={0.025}>
                     Give your Product the landing page it deserves
