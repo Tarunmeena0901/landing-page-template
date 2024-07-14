@@ -10,7 +10,7 @@ export function ClientSection() {
     return (
         <section
             ref={ref}
-            className="relative bg-neutral-900 h-[75vh] sm:h-screen py-[5vh]"
+            className="relative bg-neutral-900 h-[70vh] sm:h-screen py-[5vh]"
         >
             <motion.div
                 animate={{
@@ -26,7 +26,7 @@ export function ClientSection() {
                 animate={{
                     filter: isInView ? "blur(0px)" : "blur(5px)"
                 }}
-                className="h-full flex flex-col items-center gap-5"
+                className="h-full flex flex-col items-center justify-around sm:justify-normal gap-5"
             >
                 <div className="h-1/4 flex flex-col justify-center items-center mt-5">
                     <span className="text-2xl sm:text-4xl text-center font-semibold">Trusted by enterprises all over the world</span>

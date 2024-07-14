@@ -35,7 +35,7 @@ export function LampRevealEffect({ objRef }: { objRef: RefObject<Element> }) {
                 duration: 1.5,
                 ease: 'easeOut'
             }}
-            className="absolute z-0 top-0 bg-blue-100  inset-x-40 h-[2px] rounded-full"
+            className="absolute z-0 top-0 bg-blue-100  inset-x-40 h-[2px] origin-center rounded-full"
         />
     </div>
 }
