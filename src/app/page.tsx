@@ -4,6 +4,7 @@ import { ClientSection } from "./components/sections/clients-section/ClientSecti
 import { ProductInfo } from "./components/sections/product-info-section/ProductSection";
 import { Footer } from "./components/Footer";
 import { JoinSection } from "./components/sections/JoinSection";
+import { PricingSection } from "./components/sections/pricing-section/PricingSection";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
         <HeroSection/>
         <ClientSection/>
         <ProductInfo/>
+        <PricingSection/>
         <JoinSection/>
       </div>
       <div className="my-auto grid py-[8vh] px-[5vh] sm:px-[30vh] bg-neutral-900">
